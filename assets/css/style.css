@@ -1,6 +1,7 @@
 /*----------------------------------------
   Google Fonts
 ----------------------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 /*
   font-family: 'Roboto', sans-serif;
@@ -10,6 +11,7 @@
 /*----------------------------------------
   Default Styles
 ----------------------------------------*/
+
 * {
     box-sizing: border-box;
 }
@@ -33,7 +35,7 @@ h1 {
     font-size: 5rem;
 }
 
-section > div > h1 {
+section>div>h1 {
     color: #dddddd;
 }
 
@@ -48,11 +50,12 @@ p {
 /*----------------------------------------
   Header and Hero Section
 ----------------------------------------*/
+
 header {
     padding: 20px 0 0 20px;
 }
 
-header > img {
+header>img {
     position: fixed;
     width: 55px;
 }
@@ -67,12 +70,12 @@ header span:nth-of-type(1) {
     font-weight: 600;
 }
 
-section:nth-of-type(1) > article {
+section:nth-of-type(1)>article {
     width: 51%;
     padding: 10% 0 10% 10%;
 }
 
-section:nth-of-type(1) > article > h1 {
+section:nth-of-type(1)>article>h1 {
     margin-bottom: 10px;
 }
 
@@ -82,13 +85,13 @@ section > article > p {
 }
 */
 
-section:nth-of-type(1) > article > p::after {
+section:nth-of-type(1)>article>p::after {
     background-image: url('../img/rocket.png');
     background-size: 29px 25px;
     display: inline-block;
-    width: 29px; 
+    width: 29px;
     height: 25px;
-    content:"";
+    content: "";
 }
 
 section:nth-of-type(1) {
@@ -98,6 +101,7 @@ section:nth-of-type(1) {
 /*----------------------------------------
   Scroll to see more
 ----------------------------------------*/
+
 .see-more {
     text-transform: uppercase;
     margin-left: 10%;
@@ -106,24 +110,26 @@ section:nth-of-type(1) {
 }
 
 section:nth-of-type(2) {
-margin-top: 10%;
-height: 100vh;
-background: url('../img/images.jpg') top right/contain no-repeat;}
+    margin-top: 10%;
+    height: 100vh;
+    background: url('../img/images.jpg') top right/contain no-repeat;
+}
 
 /*----------------------------------------
   Start Idea Section
 ----------------------------------------*/
+
 section:nth-of-type(3) {
     width: 80%;
     margin: 0 auto;
 }
 
-section:nth-of-type(3) > div {
+section:nth-of-type(3)>div {
     display: flex;
     align-items: flex-start;
 }
 
-section:nth-of-type(3) > div > h2:nth-of-type(1) {
+section:nth-of-type(3)>div>h2:nth-of-type(1) {
     margin-top: 0;
     width: 35%;
     margin-right: 5%;
@@ -134,7 +140,7 @@ section:nth-of-type(3) p {
     width: 50%;
 }
 
-section:nth-of-type(3) > h2 {
+section:nth-of-type(3)>h2 {
     width: 70%;
     margin: 15% 15%;
 }
@@ -144,14 +150,15 @@ section:nth-of-type(3) span::after {
     background-image: url('../img/idea.png');
     background-size: 60px 60px;
     display: inline-block;
-    width: 60px; 
+    width: 60px;
     height: 60px;
-    content:"";
+    content: "";
 }
 
 /*----------------------------------------
   Start Info Boxes Section
 ----------------------------------------*/
+
 section:nth-of-type(4) {
     width: 80%;
     margin: 0 auto;
@@ -165,57 +172,62 @@ section:nth-of-type(4) div {
     margin-top: 20px;
 }
 
-section:nth-of-type(4) > div p:nth-of-type(2) {
+section:nth-of-type(4)>div p:nth-of-type(2) {
     margin-left: 60px;
 }
 
 /*---------- Box 01 ----------*/
-section:nth-of-type(4)> div:nth-of-type(1) > p:nth-of-type(1)::before {
+
+section:nth-of-type(4)>div:nth-of-type(1)>p:nth-of-type(1)::before {
     margin-right: 20px;
     background-image: url('../img/title02.svg');
     background-size: 40px 40px;
     display: inline-block;
-    width: 40px; 
+    width: 40px;
     height: 40px;
-    content:"";
+    content: "";
 }
 
 /*---------- Box 02 ----------*/
-section:nth-of-type(4)> div:nth-of-type(2) > p:nth-of-type(1)::before {
+
+section:nth-of-type(4)>div:nth-of-type(2)>p:nth-of-type(1)::before {
     margin-right: 20px;
     background-image: url('../img/title04.svg');
     background-size: 40px 40px;
     display: inline-block;
-    width: 40px; 
+    width: 40px;
     height: 40px;
-    content:"";
+    content: "";
 }
 
 /*---------- Box 03 ----------*/
-section:nth-of-type(4)> div:nth-of-type(3) > p:nth-of-type(1)::before {
+
+section:nth-of-type(4)>div:nth-of-type(3)>p:nth-of-type(1)::before {
     margin-right: 20px;
     background-image: url('../img/title01.svg');
     background-size: 40px 40px;
     display: inline-block;
-    width: 40px; 
+    width: 40px;
     height: 40px;
-    content:"";
+    content: "";
 }
 
 /*---------- Box 04 ----------*/
-section:nth-of-type(4)> div:nth-of-type(4) > p:nth-of-type(1)::before {
+
+section:nth-of-type(4)>div:nth-of-type(4)>p:nth-of-type(1)::before {
     margin-right: 20px;
     background-image: url('../img/title03.svg');
     background-size: 40px 40px;
     display: inline-block;
-    width: 40px; 
+    width: 40px;
     height: 40px;
-    content:"";
+    content: "";
 }
 
 /*----------------------------------------
   Start Are you ready Section
 ----------------------------------------*/
+
 section:nth-of-type(5) {
     text-align: center;
 }
@@ -223,7 +235,9 @@ section:nth-of-type(5) {
 /*----------------------------------------
   Start 4 Steps Illustrations Section
 ----------------------------------------*/
+
 /*---------- Step01 ----------*/
+
 section:nth-of-type(6) {
     margin-bottom: 15%;
     display: flex;
@@ -233,15 +247,16 @@ section:nth-of-type(6) div {
     margin-left: 5%;
 }
 
-section:nth-of-type(6) > img {
+section:nth-of-type(6)>img {
     width: 50%;
 }
 
-section:nth-of-type(6) > div > img  {
+section:nth-of-type(6)>div>img {
     width: 60px;
 }
 
 /*---------- Step02 ----------*/
+
 section:nth-of-type(7) {
     margin-bottom: 15%;
     display: flex;
@@ -252,14 +267,16 @@ section:nth-of-type(7) div {
     margin-left: 5%;
 }
 
-section:nth-of-type(7) > img {
+section:nth-of-type(7)>img {
     width: 50%;
 }
 
-section:nth-of-type(7) > div > img  {
+section:nth-of-type(7)>div>img {
     width: 60px;
 }
+
 /*---------- Step03 ----------*/
+
 section:nth-of-type(8) {
     margin-bottom: 15%;
     display: flex;
@@ -269,15 +286,16 @@ section:nth-of-type(8) div {
     margin-left: 5%;
 }
 
-section:nth-of-type(8) > img {
+section:nth-of-type(8)>img {
     width: 50%;
 }
 
-section:nth-of-type(8) > div > img  {
+section:nth-of-type(8)>div>img {
     width: 60px;
 }
 
 /*---------- Step04 ----------*/
+
 section:nth-of-type(9) {
     margin-bottom: 15%;
     display: flex;
@@ -288,17 +306,18 @@ section:nth-of-type(9) div {
     margin-left: 5%;
 }
 
-section:nth-of-type(9) > img {
+section:nth-of-type(9)>img {
     width: 50%;
 }
 
-section:nth-of-type(9) > div > img  {
+section:nth-of-type(9)>div>img {
     width: 60px;
 }
 
 /*----------------------------------------
   Start Do you like this challange Section
 ----------------------------------------*/
+
 section:nth-of-type(10) {
     text-align: center;
     margin-bottom: 10%;
@@ -307,6 +326,7 @@ section:nth-of-type(10) {
 /*----------------------------------------
   Form / Subscribe
 ----------------------------------------*/
+
 form {
     display: flex;
     flex-direction: column;
@@ -336,12 +356,38 @@ input[type=button] {
 }
 
 input[type=button]:hover {
-    background: linear-gradient(90deg, rgba(255,53,113,1) 0%, rgba(60,48,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255, 53, 113, 1) 0%, rgba(60, 48, 255, 1) 100%);
 }
 
 /*----------------------------------------
   footer
 ----------------------------------------*/
-footer > p::after {
-    content: url('../img/love.png');;
+footer>p::after {
+    content: url('../img/love.png');
+}
+
+/* Big devices */
+@media (max-width: 1200px) {
+    body {
+        background-color: lightgray;
+    }
+
+    section:nth-of-type(1) {
+        background: url('../img/ilustracion_people.png') top right/no-repeat, url('../img/ilustracion1.png') top right/no-repeat;
+        background-size: 70%;
+    }
+}
+
+/* Medium devices */
+@media (max-width: 900px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* Small devices */
+@media(max-width: 375px) {
+    body {
+        background-color: green;
+    }
 }
